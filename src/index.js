@@ -1,5 +1,6 @@
 import React from 'react';
 import palette from './palette';
+import PropTypes from 'prop-types';
 
 class ColoredButton extends React.Component{
   constructor (props) {
@@ -112,4 +113,17 @@ class ColoredButton extends React.Component{
   }
 };
 
+ColoredButton.propTypes = {
+  disabled : PropTypes.bool,
+  onTouchTap : PropTypes.func,
+  default : PropTypes.func,
+  label : PropTypes.node,
+  primary : PropTypes.bool,
+  secondary : PropTypes.bool,
+  tertiary : PropTypes.bool,
+  large: PropTypes.bool,
+  small : PropTypes.bool,
+  hoverColor : PropTypes.string,
+  style : PropTypes.object
+}
 module.exports = ColoredButton;
