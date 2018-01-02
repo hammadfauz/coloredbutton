@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.join(__dirname,'dist'),
     filename: '[name].js',
-    library : 'ArrayInput',
+    library : 'ColoredButton',
     libraryTarget : 'umd'
   },
   externals : [

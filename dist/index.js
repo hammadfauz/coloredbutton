@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["react"], factory);
 	else if(typeof exports === 'object')
-		exports["ArrayInput"] = factory(require("react"));
+		exports["ColoredButton"] = factory(require("react"));
 	else
-		root["ArrayInput"] = factory(root["React"]);
+		root["ColoredButton"] = factory(root["React"]);
 })(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_6__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
