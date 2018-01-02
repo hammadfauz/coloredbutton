@@ -24,7 +24,7 @@
     "webpack": "^3.10.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "git+https://github.com/hammadfauz/coloredbutton.git"
+    "type": "git",
+    "url": "git+https://github.com/hammadfauz/coloredbutton.git"
   }
 }

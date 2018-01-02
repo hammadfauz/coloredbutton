@@ -126,4 +126,4 @@ ColoredButton.propTypes = {
   hoverColor : PropTypes.string,
   style : PropTypes.object
 }
-module.exports = ColoredButton;
+export default ColoredButton;
